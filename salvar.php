@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         fclose($file);
 
         // Redireciona para o link desejado após salvar os dados
-        header("Location: inicio.php");
+        header("Location: index.php");
         exit; // Certifique-se de chamar exit após o header para garantir que o script pare por aqui
     } else {
         echo "Erro ao abrir o arquivo!";
